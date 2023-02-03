@@ -35,33 +35,28 @@ h1 {
   flex-wrap: wrap;
 }
 .P1 {
-  border-width: px;
-  border-top-style: solid;
-  border-bottom-style: solid ;
+ 
+
   font-size: 66px;
 }
 .P2 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
 
-  border-top-style: solid;
-  border-bottom-style: solid;
+
 }
 .P3 {
-  border-top-style: solid;
-  border-bottom-style: solid;
+ 
   
 }
 .P4 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-size: 50px;
-  border-right-style: solid;
-  border-left-style: solid;
+ 
 }
 .P5 {
-  border-right-style: solid;
-  border-left-style: solid;
+
  
   font-size: 20px;
 }
@@ -69,12 +64,10 @@ h1 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-size: 30px;
-  border-top-style: solid;
-  border-bottom-style: solid;
+
 }
 .P7 {
-  border-top-style: solid;
-  border-bottom-style: solid;
+
   font-size: 60px;
   
 }
@@ -82,19 +75,16 @@ h1 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   font-size: 20px;
-  border-right-style: solid;
-  border-left-style: solid;
+
 }
 .P9 {
-  border-right-style: solid;
-  border-left-style: solid;
+ 
   font-size: 40px;
 }
 .P10 {
   margin-left: 50px;
   font-size: 60px;
-  border-top-style: solid;
-  border-bottom-style: solid;
+
 }
 p {
   font-family: "Chakra Petch", sans-serif;
@@ -102,5 +92,6 @@ p {
   height: fit-content;
   padding: 10px;
   font-size: 40px;
-  border-width: 5px;
+  
+  border: 3px black solid;
 }
