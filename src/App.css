@@ -1,40 +1,106 @@
-.Container{
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 90px;
+  margin-left: 9%;
+  
+}
+
+.Container {
   border: 1px solid;
   width: fit-content;
   padding: 5px;
-}
-.Box{
   display: flex;
-  flex-direction: row;
-  border: 2px red solid;
+  flex-wrap: wrap;
+  
 }
-.P1{
-  color: red;
+.Box {
+  display: flex;
+  width: 1080px;
+  height: 900px;
+  border: 5px rgb(0, 0, 0) solid;
+  display: flex;
+  margin-left: 10%;
+  
+  background-image: url(/public/Maze.png);
+  background-repeat: repeat;
+  background-size: cover;
 }
-.P2{
-color: grey;
+.k {
+  display: flex;
+  flex-wrap: wrap;
 }
-.P3{
-color: aqua;
+.P1 {
+  border-width: px;
+  border-top-style: solid;
+  border-bottom-style: solid ;
+  font-size: 66px;
 }
-.P4{
-color: chocolate;
+.P2 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
-.P5{
-color: blue;
+.P3 {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  
 }
-.P6{
-color: cadetblue;
+.P4 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 50px;
+  border-right-style: solid;
+  border-left-style: solid;
 }
-.P7{
-color: blueviolet;
+.P5 {
+  border-right-style: solid;
+  border-left-style: solid;
+ 
+  font-size: 20px;
 }
-.P8{
-color: aquamarine;
+.P6 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 30px;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
-.P9{
-color: red;
+.P7 {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  font-size: 60px;
+  
 }
-.P10{
-color: turquoise;
+.P8 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 20px;
+  border-right-style: solid;
+  border-left-style: solid;
+}
+.P9 {
+  border-right-style: solid;
+  border-left-style: solid;
+  font-size: 40px;
+}
+.P10 {
+  margin-left: 50px;
+  font-size: 60px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+p {
+  font-family: "Chakra Petch", sans-serif;
+  width: max-content;
+  height: fit-content;
+  padding: 10px;
+  font-size: 40px;
+  border-width: 5px;
 }

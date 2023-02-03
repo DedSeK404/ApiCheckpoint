@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Names } from "./Names";
 
 export const Api = () => {
   const [listOfUser, setListOfUser] = useState([]);
@@ -14,11 +15,9 @@ export const Api = () => {
   }, []);
 
   return (
-    <div>
+    <div className="Container">
       {listOfUser.map((e) => (
-        <div className="Container">
-        <p className={`P${e.id}`}>{e.name}</p>
-        </div>
+        <Names key={e.id} names={e} />
       ))}
     </div>
   );
